@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% include 'basehead.html' %}
+
+<body>
+<div class="container-fluid">
+  {% block content %}
+
+  {% endblock content %}
+  {% block nav %}{% endblock nav %}
+</div>
+
+{% include 'scripts.html' %}
+</body>
+</html>
