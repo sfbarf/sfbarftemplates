@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  {% block head %}
+    {% include 'base/basehead.html' %}
+  {% endblock head %}
+</head>
+<body>
+  {% block content %}
+
+  {% block topbar %}
+  {% endblock topbar %}
+
+  OVERRIDE ME
+  {% endblock content %}
+
+
+  {% block bodyscripts %}
+  {% include 'scripts.html' %}
+  {% endblock bodyscripts %}
+</body>
+</html>
