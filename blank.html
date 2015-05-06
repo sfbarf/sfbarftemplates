@@ -1,0 +1,20 @@
+{% extends 'base/basic.html' %}
+
+{% block content %}
+<body>
+<div class="container-fluid">
+
+  {% block topbar %}
+  {% include 'base/topbar.html' %}
+  {% endblock topbar %}
+
+  <p>Hi Mom</p>
+
+  {% include 'base/mainnav.html' %}
+
+</div>
+
+{% include 'base/scripts.html' %}
+
+</body>
+{% endblock content %}
